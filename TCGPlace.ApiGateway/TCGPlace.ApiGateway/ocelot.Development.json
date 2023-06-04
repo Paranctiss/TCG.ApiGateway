@@ -1,0 +1,42 @@
+{
+  "Routes": [
+    //API SERVICE
+    //GetWeatherForecast
+    {
+      "UpstreamPathTemplate": "/GetWeatherForecast",
+      "UpstreamHttpMethod": [ "GET" ],
+
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7033
+        }
+      ],
+      "DownstreamPathTemplate": "/GetWeatherForecast",
+      "SwaggerKey": "TCG.API"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "TCG.CatalogService",
+      "Config": [
+        {
+          "Name": "TCG.CatalogService",
+          "Version": "v1",
+          "Url": "https://localhost:7131/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "TCG.PostService",
+      "Config": [
+        {
+          "Name": "TCG.PostService",
+          "Version": "v1",
+          "Url": "https://localhost:7239/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}   
