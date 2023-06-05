@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCG.ApiGateway", "TCGPlace.ApiGateway\TCG.ApiGateway.csproj", "{57BA6221-AD36-4E5A-975B-EE87FFADB029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCG.ApiGateway", "TCG.ApiGateway\TCG.ApiGateway.csproj", "{57BA6221-AD36-4E5A-975B-EE87FFADB029}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpdateOcelotFiles", "UpdateOcelotFiles\UpdateOcelotFiles.csproj", "{E7567292-59DF-4314-8351-9AEF8EAAC31E}"
 EndProject
